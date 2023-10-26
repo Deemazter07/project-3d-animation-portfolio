@@ -1,6 +1,6 @@
 {
   "name": "3d-portfolio",
-  "homepage": "https://deemazter07.github.io/project-3d-animation-portfolio",
+  "homepage": "https://Deemazter07.github.io/project-3d-animation-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
