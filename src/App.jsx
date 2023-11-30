@@ -16,8 +16,20 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
+        <div className="w-full text-center items-center p-3 top-0 z-30 bg-[#623eaf]">
+          <strong>
+            Tutorial from{" "}
+            <a
+              className="underline"
+              href="https://www.youtube.com/watch?v=0fYi8SGA20k&t=5s"
+              target="_blank"
+            >
+              here.
+            </a>
+          </strong>
+        </div>
+        <Navbar />
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
           <Hero />
         </div>
         <About />
